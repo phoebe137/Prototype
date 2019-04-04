@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Speculate.</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://use.typekit.net/kws8acy.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <link href="big.css" rel="stylesheet" type="text/css" media="(min-width:1000px)">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+    <script>
+               var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+        }
+
+    </script>
+ 
+    
+    
+    
+    
+	<header>
+        <h1>S.</h1>
+        <h2>speculate.</h2>
+        <section class="toggle">
+               <a href="browsepage.html">Browse</a>
+               <img src="images/followingslider.png" alt="following" width="" height="25">
+               <a href="following.html">Follow</a>
+        </section>    
+           
+     
+        <section class="login">
+            <div class="dropdown" style="float:right;">
+              <button class="dropbtn"><i class="material-icons">
+person_outline
+</i></button>
+              <div class="dropdown-content">
+                <a href="#">Contrubutions</a>
+                <a href="#">Playlists</a>
+                <a href="#">settings</a>
+              </div>
+            </div>
+            
+             
+        </section>
+	</header>
+    
+    
+    
+    <main>
+        
+        
+        <section class="headimagedesktop">
+         <img src="images/ardern2.png">
+            <p class="catagoryhead">National</p>
+            <p class="headtext">Christchuch Terror Attack</p>
+            <p class="overimagetext">Is Jacinda Ardern a worthy recipient of the Nobel Peace Prize?</p>
+            <p class="linkshead">
+                    <a href="url">Discussions</a>
+                    <a href="url">Articles</a>
+                    <a href="url">Voiced Opinions</a>
+                  </p> 
+        <button class="browse m"> <a href="browsepage.html">Browse</a>
+            </button>
+        
+        </section>
+        
+        
+        
+        
+        <section class="headimagemobile">
+        
+        <img src="images/ardernmobile.png">
+        <p class="catagoryheadm">National</p>
+            <p class="headtextm">Christchuch Terror Attack</p>
+            <p class="overimagetextm">Is Jacinda Ardern a worthy recipient of the Nobel Peace Prize?</p>
+            <p class="linksheadm">
+                    <a href="url">Discussions</a>
+                    <a href="url">Articles</a>
+                    <a href="url">Voiced</a>
+                  </p> 
+        
+        <button class="browse"> <a href="browsepage.html">Browse</a>
+            </button>
+        
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+     <!--   
+        <div class="slideshow-container">
+
+         
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/ardern.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/measels.png" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/ardern.png" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        <!-- The dots/circles
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        </div>
+      
+-->
+
+
+        
+        
+        
+    
+    </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+    
+    </html>
+    

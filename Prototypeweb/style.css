@@ -1,0 +1,1477 @@
+body{
+    background-color:#f2f2f2;
+    padding: 0;
+    margin-left: 20px;
+    margin:0;
+	font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+header{
+	background-color: #000000;
+	color: #fff;
+	padding: .5em .5esm;
+    display: flex;
+    border-bottom: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header h1{
+	margin: 0 0 0 0;
+	font-family: philosopher, sans-serif;
+	font-size: 2.5em;
+    padding: 0px;
+    text-align: left;
+} 
+
+header h2{
+    position: flex;
+	margin: 0 0 0 0;
+	font-family: philosopher, sans-serif;
+	font-size: 2.5em;
+	line-height: 1.1;
+    display: none;
+}
+
+
+.toggle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toggle a {
+    color: white;
+}
+
+
+h1{
+    margin: 0 0 0 0;
+	font-family: Athelas, sans-serif;
+	font-size: 56px;
+	line-height: 1.1;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+.login{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.login a{
+    font-size: 14px;
+}
+
+.toggle img{
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* Change color of dropdown links on hover */
+.dropdownmenu-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gray;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: gray;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.column1{
+   display: none;
+
+}
+
+.column2{
+    width: 90%;
+    background-color: black;
+    height: 900px;
+    overflow: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column3{
+    display: none;
+}
+
+.subcatagory{
+    display: none;
+}
+.topbox{
+    display: none;
+}
+
+
+.mobilebrowsenav{
+    display: flex;
+   
+}
+
+.mobileheading1 {
+   color: white;
+    text-align: center;
+    margin left: auto;
+    margin-right: auto;
+    
+}
+
+.mobileheading2 {
+   color: white;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+
+
+
+main {
+    background-color: black; 
+}
+
+h3 {
+color: white;   
+}
+
+.newarticlebox a{
+font-size: 25px;
+font-weight: 500;
+    color: white;
+    margin: 0px;
+}
+
+
+.newarticlebox{
+    height: 400px;
+    background-color: black;
+    padding-top: 10px;
+ 
+}
+
+
+.boxes{
+    width: 100%;
+    display: flex;
+}
+
+.comments{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+    border: solid white 1px;
+}
+
+
+.button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  text-align: center;
+  border: solid white 1px;
+ font-size: 12px;
+  float: right;
+  margin-left: 50px;
+}
+ 
+
+/* following page begins */
+
+.row1{
+   margin-left: 20px;
+    width: 90%;
+    height: 220px;
+    background-color: black;
+    border-bottom: solid white 3px;
+    display: flex;
+    
+}
+
+.row2{
+    margin-left: 20px;
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    border-bottom: solid white 3px;
+    
+}
+
+.row3{
+    margin-left: 20px;
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    border-bottom: solid white 3px;
+    
+}
+
+.title {
+    display: none;
+    margin-top: 10px;
+    width: 25%;
+    height: 90%;
+    
+}
+
+.question{
+    margin-top: 10px;
+    height: 90%;
+    width: 100%;
+    color: white;
+}
+
+
+.subquestion{
+    padding-right: 50px;
+    font-size: 1.31em;
+    padding-bottom: 10px;
+  
+    
+}
+
+.voices{display: none;
+    margin-top: 10px;
+    height: 90%;
+    width: 25%;
+    border-right: solid white 1px;
+}
+
+.playlistbox{display: none;
+    height: 100%;
+    overflow: scroll;
+}
+
+.voices img{display: none;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 30px;;
+   
+}
+
+.newcomments{display: none;
+    width: 25%;
+    margin-top: 10px;
+    height: 90%;
+}
+
+.links2 a{
+    margin-left: 0px;
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+.articlecolumn1{
+    width: 100%;
+    
+}
+
+.articlecolumn2{
+    display: none;
+}
+
+.articleheader{
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    
+}
+
+.articleheader img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.textoverimage{
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    top: 0px;
+    left: 20px;
+    font-family: Athelas, sans-serif;
+	font-size: 3.5em;
+
+}
+
+.overimagequestion{
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    top: 0px;
+    left: 20px;
+    font-weight: 500;
+	font-size: 1.5em;
+    width: 360px;
+    text-align: left;
+}
+
+/*
+.sliderimage img {
+ width: 95%;
+    margin-left: 10px;;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: none;
+} */
+
+.desktop {
+    display: none;
+    position: relative;
+}
+
+.mobile {
+    
+}
+
+/* Dropdown Button */
+.dropbtn {  
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: solid white 1px;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    border: solid white 1px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: gray}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.slidecontainer {
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 0px
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  border-radius: 0px;   
+  background: black;
+  outline: solid white 2px;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid white 2px;
+background: black;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+.doyouagree{
+margin-top: 10px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.slidecontainer {
+    color: white;
+}
+
+.commentstreams{
+    display: flex;
+}
+
+.commentstream1{
+    width:100%;
+}
+
+.commentstream2{
+    width:33%;
+    border-right: solid white 2px;
+    display:none;
+}
+
+
+.playlists{
+    width:33%;
+    display: none;
+    
+}
+.headings{
+    display: flex;
+    color: white;
+}
+.heading1 a {
+    text-decoration: underline;
+    color: white;
+    padding-left: 20px;
+}
+.heading2  {
+    right: 10px;
+}
+
+.c2{color: white;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+    background-color: black;
+}
+h3 {
+    padding-bottom: 0px;
+}
+
+
+
+.authorsign2 {
+    display: flex;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+/* Dropdown button on hover & focus */
+.button2:hover, .button2:focus {
+  background-color: gray;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  width: 50px;
+  float: right;
+  background-color: black;
+  padding: 6px;
+  font-size: 12px;
+  border: solid white 1px;;
+  cursor: pointer;
+    margin-left: 20px;
+}
+
+.stats{
+    margin-left: 150px;
+    font-weight: 600;
+    display: none;
+}
+
+
+
+/* Style buttons */ 
+.btn {
+  background-color: black; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+
+  font-size: 30px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin-left: 20px;
+}
+
+
+
+/* HOME STARTS */
+
+* {box-sizing:border-box}
+
+ 
+
+/* Slideshow container */
+.slideshow-container {
+  width: 75%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.buttons{
+    display: flex;    
+}
+
+.unfollow {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: .6em;
+  border: solid white 2px;;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 200px;
+}
+
+
+/* contributions PAGE STARTS */
+
+.contributionall{
+    display: flex;
+}
+
+.mobileheading {
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+
+.contributionsection {
+    height: 899px;
+    overflow: scroll;
+    display: block;
+}
+
+.playlistsection {
+    width: 90%;
+    height: 600px;
+    margin-left: 20px;
+    color: white;
+}
+
+.playlistheading{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid white 1px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.addedaudio{
+    display: block;
+    height: 120px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    
+}
+.audio1{
+    width: 100%;
+    display: flex;
+    height: 50px;
+}
+.addedaudio img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.audiotitle{
+    margin: 0px;
+    font-weight: 100;
+    width: 200px;
+    padding-left: 2px;
+}
+
+.audioauthor{
+    margin: 0px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.audiotext{
+}
+
+
+/* Dropdown button on hover & focus */
+.button3:hover, .button2:focus {
+  background-color: black;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  width: 60px;
+  height: 30px;
+  float: right;
+  background-color: black;
+  padding: 6px;
+  font-size: 12px;
+  border: solid white 1px;;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.playlistbutton{
+    margin-right: 10px;
+}
+
+
+
+
+
+/* article modal */
+
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 300px;;
+  right: 50px;
+  border: 1px solid white;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: black;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 3px 0 22px 0;
+  border: none;
+  background: white;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    display: flex;
+  background-color: black;
+  color: white;
+    font-size: 14px;
+  border: solid white 1px;;
+  cursor: pointer;
+  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+   margin-top: 20px;
+  margin-bottom:10px; 
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: black;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: .9em;
+    font-weight: 100;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: gray;
+}
+
+
+
+
+
+.open-button{
+float: right;
+    display: block;
+    margin-bottom: 30px;
+  padding: 12px 16px;
+background-color: black;
+     color: white;
+    border: solid white 1px;
+    text-decoration: none;
+    text-align: center;
+   margin: 5px;
+}
+
+.formheading{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.dropdown mobile{
+    display: block;
+}
+
+.graph{
+    display: none;
+}
+.graph img {
+   width: 90%;
+margin-left: 30px;
+    border: solid white 1px;
+  
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+    z-index: inherit;
+}
+
+.report {
+    background: black;
+    font-size: 15px;
+    color: white;
+    float: right;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.dropbtn2 { 
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 p {
+    width: 90%;
+    padding-top: 10px;
+    margin-top: 0px;
+    color: white;
+    font-size: 15px;
+    height: 240px;
+    overflow: scroll;
+    
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  color: white;
+  background-color: black;
+  max-height: 90px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.headimagedesktop {
+    display: none;
+    border-right: solid white 1px;
+}
+
+
+.headimagemobile {
+    width: 100%;
+    
+}
+
+.headimagemobile img{
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.headtextm{
+    width: 50%;
+    color: white;
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    top: 0px;
+    left: 20px;
+    font-family: Athelas, sans-serif;
+    font-size: 4em;
+    font-weight: 00;
+}
+
+.overimagetextm{
+    color: white;
+    position: absolute;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    top: 0px;
+    left: 20px;
+    font-weight: 100;
+	font-size: 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.catagoryheadm{
+    color: gray;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    top: 0px;
+    left: 20px;
+    font-weight: 100;
+	font-size: 30px;
+    width: 30%;
+    text-align: left;
+}
+
+.linksheadm {
+    position: absolute;
+    margin-top: 500px;
+    margin-bottom: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 20px;
+    font-weight: 100;
+	font-size: 15px;
+    margin-left: 0px;
+    display: flex;
+    
+}
+
+.linksheadm a {
+    display: flex;
+    padding: 4px;
+    top: 0px;
+    left: 20px;
+    font-weight: 100;
+	font-size: 15px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: right;
+}
+
+ .browse {
+    position: absolute;
+    top: 600px;
+    left:25px;
+     border: solid white 1px;
+background-color: black;
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+     color: aliceblue;
+}
+
+
+.browse a {
+    color: white; }
+
+.m {
+    top: 830px;
+    
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 899px;
+  top: 50px;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 36px;
+  padding: 0px;
+}
+
+.openbtn {
+  width: 88%;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+    margin-top: 10px;
+  padding: 12px;
+  font-size: 12px;
+  border: solid white 1px;
+  cursor: pointer;
+}
+
+.openbtn:hover {
+    background-color:#444;
+}
+
+
+
+
+.contaudio {
+    width: 100%;
+    display: block;
+    background-color: beige;
+    height: 500px;
+}
+
+.contwrite {
+    width: 100%;
+    display: block;
+    background-color: magenta;
+    height: 500px;
+}
+}
+
+.mobileimg {
+    border-bottom: solid white 2px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.heading1 {
+    text-decoration: none;
+}
+
+.headingsart {
+    display: block;
+  
+}
+
+.linkcont {
+    margin-top: 20px;
+    position: absolute;
+    display: block;
+    z-index: 3;
+    margin-left: 30px;
+    
+}
+
+.material-icons {
+    border: none;
+}
+
+.statscroll {
+    height: 120px;
+    background-color: black;
+    width: 90%;
+    overflow: scroll;
+    display: flex;
+   margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    margin-bottom: 20px;
+}
+
+.monthly {
+    margin: 9px;
+    width: 80px;
+    
+}
+
+.month {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%
+}
+
+.number {
+    font-size: 35px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.agree {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+    font-kerning: normal;
+    margin-bottom: 0px;
+}
+
+.scrollcontent {
+    display: flex;
+    text-align: right;
+}
+
+.agree {
+    
+}
+
+.yourstats {
+    display: flex;
+    width: 90%;
+    border: solid white 1px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.today {
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 200;
+  
+    
+}
+
+.m {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.timex {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.percent {
+    font-size: 35px;
+    margin: 0px;
+    
+}
+
+.date1 {
+    
+}
+
+.when {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.audioscroll {
+    width: 90%;
+    overflow-x: scroll;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: solid white 1px;
+    color: white;
+}
+
+.line1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    border-right: solid white 1px;
+}
+
+.audiosc {
+   display: flex;
+    padding: 4px;
+border: solid white 1px;
+   margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+.audiosc img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.buttonadd {
+   background-color: black;
+  color: white;
+  
+
+  background-color: black;
+
+  font-size: 12px;
+  border: solid white 1px;;
+  cursor: pointer;
+}
+
+
+.commentsbutton {
+    
+}
+
+section {
+
+}
+
+.articleone {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topmobilesection {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    overflow-x: scroll;
+    color: white;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.topscrollm {
+    width: 900px;
+    height: 90%;
+    display: flex;
+    
+}
+
+
+.mob {
+    width: 100px;
+}
+
+.firststory {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.firststory img{
+    width: 100%
+    
+}
+
+.mheading {
+    width: 300px;
+    margin-top: 5px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+     transition: .5s ease;
+  
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.moblinks a {
+    font-size: 12px;
+    margin: 0px;
+    margin-right:10px;
+    
+}
+
+
+
+.image {
+  opacity: .6;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.firststory:hover .image {
+  opacity: 0.3;
+}
+
+.firststory:hover .mheading {
+  opacity: 1;
+}
+
+.overtop {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.questiontext {
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.followimage {
+  padding: 6px 12px;
+
+}
